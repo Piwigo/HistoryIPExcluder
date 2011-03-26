@@ -92,9 +92,17 @@ WHERE param = "HistoryIPConfig"
   /* upgrade from version 2.1.1 to 2.2.0 */
   /* *********************************** */
   $HIPE_Config = unserialize($conf['HistoryIPConfig']);
-  if ($HIPE_Config['Version'] != "2.2.0")
+  if ($HIPE_Config['Version'] != '2.2.0')
   {
     upgrade_211();
+  }
+
+  /* upgrade from version 2.2.0 to 2.2.1 */
+  /* *********************************** */
+  $HIPE_Config = unserialize($conf['HistoryIPConfig']);
+  if ($HIPE_Config['Version'] != '2.2.1')
+  {
+    upgrade_220();
   }
 }
 
@@ -178,7 +186,7 @@ WHERE param = "HistoryIPConfig"
     
   $Newconf_HIPE = unserialize($conf_HIPE['value']);
   
-  $Newconf_HIPE[1] = '2.2.0';
+  $Newconf_HIPE['Version'] = '2.2.0';
   
   $update_conf = serialize($Newconf_HIPE);
 
@@ -189,7 +197,7 @@ WHERE param="HistoryIPConfig"
 LIMIT 1
 ;';
 
-	pwg_query($query); 
+	pwg_query($query);
 
   // Create new HIPE entry in plugins table 
   $query = '
@@ -213,5 +221,36 @@ LIMIT 1
   {
     die('Fatal error on plugin upgrade process : Unable to rename directory ! Please, rename manualy the plugin directory name from ../plugins/nbc_HistoryIPExcluder to ../plugins/HistoryIPExcluder.');
   }
+}
+
+
+function upgrade_220()
+{
+  global $conf;
+
+// Update plugin version
+  $query = '
+SELECT value
+  FROM '.CONFIG_TABLE.'
+WHERE param = "HistoryIPConfig"
+;';
+  $result = pwg_query($query);
+  
+  $conf_HIPE = pwg_db_fetch_assoc($result);
+    
+  $Newconf_HIPE = unserialize($conf_HIPE['value']);
+  
+  $Newconf_HIPE['Version'] = '2.2.1';
+  
+  $update_conf = serialize($Newconf_HIPE);
+
+  $query = '
+UPDATE '.CONFIG_TABLE.'
+SET value="'.addslashes($update_conf).'"
+WHERE param="HistoryIPConfig"
+LIMIT 1
+;';
+
+	pwg_query($query);
 }
 ?>

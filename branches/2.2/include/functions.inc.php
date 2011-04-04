@@ -45,4 +45,17 @@ function HIPE_infos($dir)
 
   return $plugin ;
 }
+
+// Debugger function
+function HIPELog($var1, $var2, $var3, $var4)
+{
+   $fo=fopen (HIPE_PATH.'log.txt','a') ;
+   fwrite($fo,"======================\n") ;
+   fwrite($fo,'le ' . date('D, d M Y H:i:s') . "\r\n");
+   fwrite($fo,$var1 ."\r\n") ;
+   fwrite($fo,$var2 ."\r\n") ;
+   fwrite($fo,$var3 ."\r\n") ;
+   fwrite($fo,$var4 ."\r\n") ;
+   fclose($fo) ;
+}
 ?>

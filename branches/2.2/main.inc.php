@@ -1,8 +1,8 @@
 <?php
 /*
 Plugin Name: History IP Excluder
-Version: 2.2.2
-Description: Permet l'exclusion d'une IP ou d'une plage d'IP de l'historique et de les blacklister à l'inscription - Base MySql seulement! / Excludes one IP or a range of IP from the history and to blacklist them on registration - MySql database only!
+Version: 2.2.3
+Description: Permet l'exclusion d'une IP ou d'une plage d'IP de l'historique et de les blacklister à l'inscription / Excludes one IP or a range of IP from the history and to blacklist them on registration
 Plugin URI: http://piwigo.org/ext/extension_view.php?eid=147
 Author: Nicco, Eric
 Author URI: http://gallery-nicco.no-ip.org - http://www.infernoweb.net
@@ -29,6 +29,8 @@ Author URI: http://gallery-nicco.no-ip.org - http://www.infernoweb.net
 2.2.1             - Bug fixed on plugin upgrade from 2.1.x version
 
 2.2.2             - Another bug fixed on plugin upgrade from 2.2.x version
+
+2.2.3             - Improved update mechanism. When no structural update of database is necessary, it sets the correct version number in plugin's configuration
 
 --------------------------------------------------------------------------------
 */

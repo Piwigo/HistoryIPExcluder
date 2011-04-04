@@ -92,7 +92,7 @@ WHERE param = "HistoryIPConfig"
   /* upgrade from version 2.1.1 to 2.2.0 */
   /* *********************************** */
   $HIPE_Config = unserialize($conf['HistoryIPConfig']);
-  if ($HIPE_Config['Version'] != '2.2.0')
+  if ($HIPE_Config['Version'] == '2.1.1')
   {
     upgrade_211();
   }
@@ -100,7 +100,7 @@ WHERE param = "HistoryIPConfig"
   /* upgrade from version 2.2.0 to 2.2.1 */
   /* *********************************** */
   $HIPE_Config = unserialize($conf['HistoryIPConfig']);
-  if ($HIPE_Config['Version'] != '2.2.1')
+  if ($HIPE_Config['Version'] == '2.2.0')
   {
     upgrade_220();
   }

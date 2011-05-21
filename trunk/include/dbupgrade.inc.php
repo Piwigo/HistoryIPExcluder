@@ -2,7 +2,7 @@
 
 /* Database upgrading functions */
 
-// This wil update only current plugin version number in database
+// This will update only current plugin version number in database
 function global_version_update()
 {
   global $conf;
@@ -24,17 +24,8 @@ WHERE param = "HistoryIPConfig"
   $Newconf_HIPE = unserialize($conf_HIPE['value']);
   
   $Newconf_HIPE['Version'] = $version;
-  
-  $update_conf = serialize($Newconf_HIPE);
 
-  $query = '
-UPDATE '.CONFIG_TABLE.'
-SET value="'.addslashes($update_conf).'"
-WHERE param="HistoryIPConfig"
-LIMIT 1
-;';
-
-	pwg_query($query);
+  conf_update_param('HistoryIPConfig', pwg_db_real_escape_string(serialize($Newconf_HIPE)));
 }
 
 
@@ -70,7 +61,7 @@ function upgrade_210()
 
   $q = '
 INSERT INTO '.CONFIG_TABLE.' (param,value,comment)
-VALUES ("HistoryIPConfig","'.addslashes(serialize($default)).'","History IP Excluder options");
+VALUES ("HistoryIPConfig","'.pwg_db_real_escape_string(serialize($default)).'","History IP Excluder options");
 ';
       
   pwg_query($q);

@@ -31,7 +31,6 @@ Author URI: http://gallery-nicco.no-ip.org - http://www.infernoweb.net
 2.2.2             - Another bug fixed on plugin upgrade from 2.2.x version
 
 2.2.3             - Improved update mechanism. When no structural update of database is necessary, it sets the correct version number in plugin's configuration
-
 --------------------------------------------------------------------------------
 */
 

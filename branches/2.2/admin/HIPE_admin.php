@@ -41,15 +41,8 @@ if ( isset($_POST['submit']) and !is_adviser() )
     'Blacklist' => $_POST['HIPE_chkb'],
     'Version'   => $version,
   );
-  
-  $conf['HistoryIPConfig'] = serialize($newconf_HIPE);
 
-  $query = '
-    UPDATE '.CONFIG_TABLE.'
-    SET value="'.addslashes($conf['HistoryIPConfig']).'"
-    WHERE param="HistoryIPConfig"
-    LIMIT 1';
-  pwg_query($query);
+  conf_update_param('HistoryIPConfig', pwg_db_real_escape_string(serialize($newconf_HIPE)));
 
   // information message
   array_push($page['infos'], l10n('HIPE_save_config'));

@@ -48,7 +48,7 @@ WHERE param = "HistoryIPConfig"
   {
     $q = '
 INSERT INTO '.CONFIG_TABLE.' (param,value,comment)
-VALUES ("HistoryIPConfig","'.addslashes(serialize($default)).'","History IP Excluder options");
+VALUES ("HistoryIPConfig","'.pwg_db_real_escape_string(serialize($default)).'","History IP Excluder options");
 ';
     pwg_query($q);
   }

@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: History IP Excluder
-Version: 2.2.3
+Version: 2.3.0a
 Description: Permet l'exclusion d'une IP ou d'une plage d'IP de l'historique et de les blacklister à l'inscription / Excludes one IP or a range of IP from the history and to blacklist them on registration
 Plugin URI: http://piwigo.org/ext/extension_view.php?eid=147
 Author: Nicco, Eric
@@ -31,6 +31,10 @@ Author URI: http://gallery-nicco.no-ip.org - http://www.infernoweb.net
 2.2.2             - Another bug fixed on plugin upgrade from 2.2.x version
 
 2.2.3             - Improved update mechanism. When no structural update of database is necessary, it sets the correct version number in plugin's configuration
+
+2.3.0a            - Piwigo 2.3.0 compliant (alpha release for Piwigo 2.3.0RC)
+                  - Use data serialization for database storage
+                  - Use pwg_db_real_escape_string() instead of addslashes()
 --------------------------------------------------------------------------------
 */
 

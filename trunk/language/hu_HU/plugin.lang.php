@@ -1,6 +1,4 @@
 <?php
-global $lang;
-
 $lang['HIPE_description'] = 'Ezzel a bővítménnyel kizárhat IP címeket, vagy IP tartományokat az előzményekből és a statisztikából. <br>A blokkolt rekordokat az IP *_history táblában az alábbi táblázat tartalmazza.';
 $lang['HIPE_admin_section1'] = 'IP-k kizárása';
 $lang['HIPE_admin_description1'] = 'IP címek kizárásához írja be az alábbi mezőbe a kizárandó IP-ket, vagy adjon meg IP tartományokat (soronként egyet). IP tartomány kizárásához használja a helyettesítő karaktert "%".<br>Példa : 74.6.1.2 vagy 74.6.%';

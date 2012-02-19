@@ -1,6 +1,4 @@
 <?php
-global $lang;
-
 $lang['HIPE_description'] = 'Diese Erweiterung erlaubt es, einzelne IP Adressen oder Adressbereiche von der Erfassung in der Historie und den Statistiken auszunehmen . <br>Wird die Erweiterung aktiviert, werden die unten angegebenen IP Adressen nicht in die *_history Tabellen übernommen.';
 $lang['HIPE_admin_section1'] = 'Auszunehmende IP Adressen';
 $lang['HIPE_admin_description1'] = 'Geben Sie die auszunehmen IP Adresse oder den auszunehmenden Addressbereich (ein Eintrag pro Zeile) in das Feld unten ein. Benutzen Sie das Stellvertretersymbol "%", um Adressbereiche einzugeben.<br>Beispiel: 74.6.1.2 oder 74.6.%';

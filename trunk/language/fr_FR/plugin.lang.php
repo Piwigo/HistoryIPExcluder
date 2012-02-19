@@ -1,6 +1,4 @@
 <?php
-global $lang;
-
 $lang['HIPE_description'] = 'Ce plugin permet d\'exclure de l\'historique et des statistiques des IP ou plages d\'IP.<br>Son activation bloque l\'enregistrement dans la table *_history des IP spécifiées dans le tableau ci-dessous.';
 $lang['HIPE_admin_section1'] = 'IP à exclure';
 $lang['HIPE_admin_description1'] = 'Saisissez les IP complètes ou plages d\'IP à exclure (une par ligne) dans le cadre ci-dessous. Pour indiquer une plage d\'IP, utilisez le caractère joker "%".<br>Par exemple : 74.6.2.1 ou 74.6.%<br><br>';

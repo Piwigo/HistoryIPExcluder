@@ -1,6 +1,4 @@
 <?php
-global $lang;
-
 $lang['HIPE_description'] = 'This plugin allows to exclude from the history and statistics of IP or IP ranges. <br>Its activation blocks record in the table of IP *_history specified in the table below.';
 $lang['HIPE_admin_section1'] = 'IP Exclusion';
 $lang['HIPE_admin_description1'] = 'Enter the complete IP or IP ranges to exclude (one per line) in the box below. To specify an IP range, use the wildcard character "%".<br>Example : 74.6.1.2 or 74.6.%';

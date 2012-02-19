@@ -1,6 +1,4 @@
 <?php
-global $lang;
-
 $lang['HIPE_description'] = 'Este plugin permite excluir de la reseña histórica y las estadísticas del IP o las playas d \'IP. <br> Su activación bloquea el registro en la mesa * _history IP especificados en el tablero más abajo.';
 $lang['HIPE_admin_section1'] = 'IP a excluir';
 $lang['HIPE_admin_description1'] = 'Coja el IP completo o las playas de IP a excluir (Uno por línea) En el marco(ejecutivo) más abajo. Para indicar una playa de IP, utilice el carácter mono "%".<br>Por Ejemplo : 74.6.2.1 o 74.6.%<br><br>';
@@ -30,10 +28,4 @@ $lang['submit'] = 'Someter';
 // --------- Starting below: New or revised $lang ---- from version 2.1.0
 $lang['HIPE_version'] = ' - Versión: ';
 // --------- End: New or revised $lang ---- from version 2.1.0
-
-// --------- Starting below: New or revised $lang ---- from version 2.1.1
-/*TODO*/$lang['HIPE_IPBlacklist_title'] = 'Registration blacklist';
-/*TODO*/$lang['HIPE_IPBlacklisted'] = ' Prevent registration to the gallery of excluded IPs (blacklist)';
-/*TODO*/$lang['Error_HIPE_BlacklistedIP'] = 'Error! Your IP has been banned. You can not subscribe to this gallery. Contact the administrator for further details.';
-// --------- End: New or revised $lang ---- from version 2.1.1
 ?>

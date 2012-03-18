@@ -27,4 +27,7 @@ $lang['IP_geolocalisation'] = 'Geolocalizzazione';
 // --------- Starting below: New or revised $lang ---- from version 2.1.0
 $lang['HIPE_version'] = ' - Versione: ';
 // --------- End: New or revised $lang ---- from version 2.1.0
+$lang['Error_HIPE_BlacklistedIP'] = 'Errore! Il tuo IP è stato bannato. Non ti puoi registrare a questa galleria. Contatta l\'amministratore per ulteriori informazioni.';
+$lang['HIPE_IPBlacklisted'] = 'Vieta la registrazione alla galleria agli IP (blacklist) esclusi';
+$lang['HIPE_IPBlacklist_title'] = 'Blacklist registrazioni';
 ?>

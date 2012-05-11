@@ -36,4 +36,5 @@ $lang['HIPE_resquet_ok'] = 'Žádost OK';
 $lang['HIPE_save_config'] = 'Konfigurace uložena.';
 $lang['HIPE_version'] = '- verze:';
 $lang['IP_geolocalisation'] = 'Geolokalizace';
+$lang['HIPE_MemberForIp_description'] = 'Vyber a hledej uživatele přidružené k jedné IP (seřazené dle jména)';
 ?>

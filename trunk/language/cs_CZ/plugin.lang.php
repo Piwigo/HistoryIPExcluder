@@ -39,4 +39,5 @@ $lang['IP_geolocalisation'] = 'Geolokalizace';
 $lang['HIPE_MemberForIp_description'] = 'Vyber a hledej uživatele přidružené k jedné IP (seřazené dle jména)';
 $lang['Error_HIPE_BlacklistedIP'] = 'Chyba! Vaše IP adresa je blokována a proto se nemůžete zaregistrovat do této galerie. Pokud vás zajímají podrobnosti, kontaktujte prosím administrátora galerie.';
 $lang['HIPE_IPBlacklisted'] = 'Zabránit registraci uživatelů s následujícími IP adresami (blacklist)';
+$lang['HIPE_OnlyGuest_description'] = 'Ukáže pouze IP použité Hosty a počet kolikrát bylo nalezeno v historické tabulce, tříděno dle počtu';
 ?>

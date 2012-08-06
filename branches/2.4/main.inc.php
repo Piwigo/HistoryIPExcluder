@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: History IP Excluder
-Version: 2.4.2
+Version: 2.4.3
 Description: Permet l'exclusion d'une IP ou d'une plage d'IP de l'historique et de les blacklister à l'inscription / Excludes one IP or a range of IP from the history and to blacklist them on registration
 Plugin URI: http://piwigo.org/ext/extension_view.php?eid=147
 Author: Nicco, Eric
@@ -43,6 +43,13 @@ Author URI: http://gallery-nicco.no-ip.org - http://www.infernoweb.net
                   - Add  ru_RU translation (thanks to nadusha)
 
 2.4.2             - Update ru_RU translation (thanks to nadusha)
+
+2.4.3             - Update hu_HU translation (thanks to samli)
+                  - Update pl_PL translation (thanks to kuba)
+                  - Update cs_CZ translation (thanks to sichr)
+                  - Update el_GR translation (thanks to bas_alba)
+                  - Update lv_LV translation (thanks to agrisans)
+                  - Add uk_UA translation (thanks to animan)
                   
 --------------------------------------------------------------------------------
 */

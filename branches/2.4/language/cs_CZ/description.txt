@@ -1,1 +1,0 @@
-Vyloučí jednu, nebo daný rozsah IP adres z historie a zařadí je do blacklistu registrací

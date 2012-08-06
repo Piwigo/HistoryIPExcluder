@@ -1,1 +1,0 @@
-Wyklucza jeden adres IP lub zakres adresów z historii i umieszcza je na czarnej liście przy rejestracji

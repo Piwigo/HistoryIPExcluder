@@ -1,1 +1,0 @@
-Lehetővé teszi IP címek vagy IP tartományok kizárását, események felülvizsgálatát.

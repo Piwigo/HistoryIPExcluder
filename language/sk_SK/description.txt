@@ -1,0 +1,1 @@
+Vylúčiť jednu IP alebo rozsah IP z histórie a blacklist pre registráciu

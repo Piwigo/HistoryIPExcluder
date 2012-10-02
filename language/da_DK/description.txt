@@ -1,0 +1,1 @@
+Fravælger en IP-adresse eller et interval af IP-adresser fra historikken og sortlister dem ved registrering.

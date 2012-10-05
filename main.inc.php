@@ -54,7 +54,7 @@ Author URI: http://gallery-nicco.no-ip.org - http://www.infernoweb.net
 2.4.4             - Update uk_UA, thanks to : animan
                   - Update es_ES, thanks to : jpr928
                   - Update it_IT, thanks to : virgigiole
-                  - Update sk_SK, thanks to : dodo
+                  - Add sk_SK, thanks to : dodo
                   - Add da_DK, thanks to : Kaare
 --------------------------------------------------------------------------------
 */

@@ -1,0 +1,1 @@
+Geçmişten alınacak bir IP veya IP aralığını dışlar ve kayıt sırasında kara listeye alır

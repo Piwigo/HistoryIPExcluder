@@ -56,6 +56,9 @@ Author URI: http://gallery-nicco.no-ip.org - http://www.infernoweb.net
                   - Update it_IT, thanks to : virgigiole
                   - Add sk_SK, thanks to : dodo
                   - Add da_DK, thanks to : Kaare
+
+2.5.0             - Compliance with Piwigo 2.5
+                  - Add tr_TR, thanks to : LazBoy
 --------------------------------------------------------------------------------
 */
 

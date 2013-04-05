@@ -1,0 +1,1 @@
+Exclui um IP ou um intervalo de IP da história e registra-los na lista negra.

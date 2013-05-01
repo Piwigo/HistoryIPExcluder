@@ -59,6 +59,8 @@ Author URI: http://gallery-nicco.no-ip.org - http://www.infernoweb.net
 
 2.5.0             - Compliance with Piwigo 2.5
                   - Add tr_TR, thanks to : LazBoy
+
+2.5.1             - Add pt_BR, thanks to : flaviove
 --------------------------------------------------------------------------------
 */
 

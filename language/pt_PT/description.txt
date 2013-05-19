@@ -1,1 +1,1 @@
-Excluir um IP ou faixa de IP's do histórico e da Lista negra 
+Excluir um IP ou faixa de IP's a partir do histórico e barrar-lhe a possibilidade de registo

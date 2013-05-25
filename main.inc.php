@@ -61,6 +61,8 @@ Author URI: http://gallery-nicco.no-ip.org - http://www.infernoweb.net
                   - Add tr_TR, thanks to : LazBoy
 
 2.5.1             - Add pt_BR, thanks to : flaviove
+
+2.5.2             - Add pt_PT, thanks to : ddtddt & ANO
 --------------------------------------------------------------------------------
 */
 

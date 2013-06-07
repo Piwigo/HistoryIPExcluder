@@ -1,0 +1,1 @@
+Sluit een IP-adres of een reeks van IP-adressen uit van de geschiedenis en neem ze op in de blacklist, zodat ze niet meer kunnen registreren

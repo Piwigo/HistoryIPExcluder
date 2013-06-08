@@ -11,8 +11,6 @@ $lang['HIPE_IPByMember'] = 'IP per utente';
 $lang['HIPE_IPByMember_description'] = 'Visualizza gli indirizzi IP legati a degli utenti, ordinati per indirizzo';
 $lang['HIPE_OnlyGuest'] = 'IP solo degli ospiti';
 $lang['HIPE_OnlyGuest_description'] = 'Visualizza gli indirizzi IP usati unicamente dagli ospiti e il numero di volte che appaiono nella base, per numero di volte per IP';
-$lang['HIPE_IPnoGuest'] = '';
-$lang['HIPE_IPnoGuest_description'] = '';
 
 $lang['HIPE_IPForMember'] = 'IP di un\'utente';
 $lang['HIPE_IPForMember_description'] = 'Cerca e visualizza gli indirizzi IP legati agli utenti (ordinati per IP)';

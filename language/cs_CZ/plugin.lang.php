@@ -40,8 +40,6 @@ $lang['HIPE_MemberForIp_description'] = 'Vyber a hledej uživatele přidružené
 $lang['Error_HIPE_BlacklistedIP'] = 'Chyba! Vaše IP adresa je blokována a proto se nemůžete zaregistrovat do této galerie. Pokud vás zajímají podrobnosti, kontaktujte prosím administrátora galerie.';
 $lang['HIPE_IPBlacklisted'] = 'Zabránit registraci uživatelů s následujícími IP adresami (blacklist)';
 $lang['HIPE_OnlyGuest_description'] = 'Ukáže pouze IP použité Hosty a počet kolikrát bylo nalezeno v historické tabulce, tříděno dle počtu';
-$lang['HIPE_IPnoGuest_description'] = ' ';
-$lang['HIPE_IPnoGuest'] = ' ';
 $lang['HIPE_admin_description1'] = 'Do pole níže zadejte kompletní IP adresy, nebo rozsah IP adres pro zařazení do blacklistu (jednu adresu na řádek). Pro upřesnění rozsahu IP adres použijte zástupný znak "%".<br>Příklad : 74.6.1.2 nebo 74.6.%';
 $lang['HIPE_description'] = 'Tento plugin umožňuje vynechat IP adresy, nebo rozsahy IP adres z historie a statistik. <br>Jeho aktivace blokuje záznamy v tabulce historie IP adres uvedené v tabulce níže.';
 ?>

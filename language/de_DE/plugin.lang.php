@@ -11,8 +11,6 @@ $lang['HIPE_IPByMember'] = 'IP Adressen von Mitgliedern';
 $lang['HIPE_IPByMember_description'] = 'Zeigt die IP Adressen an, die von Mitgliedern benutzt werden (nach IP Adresse sortiert)';
 $lang['HIPE_OnlyGuest'] = 'IP Adressen von Gästen';
 $lang['HIPE_OnlyGuest_description'] = 'Zeigt die IP Adressen von Gastbenutzern und die Anzahl der Einträge in der History Tabelle an (sortiert nach der Anzahl der Einträge)';
-$lang['HIPE_IPnoGuest'] = '';
-$lang['HIPE_IPnoGuest_description'] = '';
 
 $lang['HIPE_IPForMember'] = 'IP Adressen eines Mitglieds';
 $lang['HIPE_IPForMember_description'] = 'Zeigt die IP Adressen, die von einem registrierten Mitglied verwendet werden (nach IP Adressen sortiert)';

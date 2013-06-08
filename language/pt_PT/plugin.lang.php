@@ -20,8 +20,6 @@
 // | Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA 02111-1307, |
 // | USA.                                                                  |
 // +-----------------------------------------------------------------------+
-$lang['HIPE_IPnoGuest'] = ' ';
-$lang['HIPE_IPnoGuest_description'] = ' ';
 $lang['HIPE_save_config'] = 'Configuração salva';
 $lang['HIPE_description'] = 'Esta extensão permite excluir do histórico e das estatísticas de IP ou  faixa de IP\'s. <br> A ativação bloqueia o registo na tabela de IP*_history especificado na tabela abaixo.';
 $lang['HIPE_hist_cleaned'] = 'Limpeza da tabela histórico executada';

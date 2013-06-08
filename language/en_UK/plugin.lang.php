@@ -11,8 +11,6 @@ $lang['HIPE_IPByMember'] = 'IPs by member';
 $lang['HIPE_IPByMember_description'] = 'Show the IPs used by members, sorted by IP';
 $lang['HIPE_OnlyGuest'] = 'Only Guests IPs';
 $lang['HIPE_OnlyGuest_description'] = 'Show the IPs only used by Guests and the number of times it\'s found in the history table, sorted by the number of times';
-$lang['HIPE_IPnoGuest'] = '';
-$lang['HIPE_IPnoGuest_description'] = '';
 
 $lang['HIPE_IPForMember'] = 'IPs for a member';
 $lang['HIPE_IPForMember_description'] = 'Search and displays the IPs associated with a registered user (sorted by IP)';

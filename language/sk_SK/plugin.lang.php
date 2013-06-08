@@ -20,8 +20,6 @@
 // | Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA 02111-1307, |
 // | USA.                                                                  |
 // +-----------------------------------------------------------------------+
-$lang['HIPE_IPnoGuest'] = '?';
-$lang['HIPE_IPnoGuest_description'] = '?';
 $lang['HIPE_admin_description1'] = 'Do poľa nižšie zadajte kompletné IP adresy, alebo rozsah IP adries pre zaradenie do blacklistu (jednu adresu na riadok). Pre upresnenie rozsahu IP adries použite rozšírený znak "%".<br>Napríklad: 74.6.1.2 alebo 74.6.%';
 $lang['HIPE_description'] = 'Tento doplnok umožňuje vynechať IP adresy, alebo rozsahy IP adries z histórie a štatistík. <br>Jeho aktivácia blokuje záznamy v tabuľke histórie IP adries uvedené v tabuľke nižšie.';
 $lang['HIPE_admin_section2'] = 'Otázky na tabuľku histórie';

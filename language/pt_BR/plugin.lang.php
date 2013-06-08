@@ -42,6 +42,4 @@ $lang['HIPE_admin_section2'] = 'Consultas na tabela história';
 $lang['HIPE_admin_section3'] = 'Resultado da consulta ao histórico';
 $lang['HIPE_description'] = 'Este plugin permite excluir a história e as estatísticas de faixas de IP ou endereço IP. <br>A sua ativação registro blocos na tabela de IP*_história especificada na tabela abaixo. ';
 $lang['HIPE_hist_cleaned'] = 'A limpeza da tabela de histórico foi feito.';
-$lang['HIPE_IPnoGuest'] = ' ';
-$lang['HIPE_IPnoGuest_description'] = ' ';
 ?>

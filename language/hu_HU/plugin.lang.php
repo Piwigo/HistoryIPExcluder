@@ -10,8 +10,6 @@ $lang['HIPE_IPByMember'] = 'Felhasználói IP-k';
 $lang['HIPE_IPByMember_description'] = 'Tagok által használt IP címeket mutatja IP cím szerint rendezve.';
 $lang['HIPE_OnlyGuest'] = 'Csak vendég IP-k';
 $lang['HIPE_OnlyGuest_description'] = 'Az előzmények tábla szerint rendezve csak azon IP címeket mutatja melyekről a vendégek meglátogatták az oldalt. Felsorolja az IP címeket és azt, hogy az adott IP-ről hányszor kapcsolódtak.';
-$lang['HIPE_IPnoGuest'] = '';
-$lang['HIPE_IPnoGuest_description'] = '';
 
 $lang['HIPE_IPForMember'] = 'IP cím keresése felhasználónév szerint';
 $lang['HIPE_IPForMember_description'] = 'Megkeresi és megjeleníti a regisztrált felhasználó  IP címét (rendezve IP szerint).';

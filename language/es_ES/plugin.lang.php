@@ -11,8 +11,6 @@ $lang['HIPE_IPByMember'] = 'IP de usuarios';
 $lang['HIPE_IPByMember_description'] = 'Búsqueda y muestra el IP de usuarios inscritos, (selección por IP)';
 $lang['HIPE_OnlyGuest'] = 'IP de invitados solamente';
 $lang['HIPE_OnlyGuest_description'] = 'Búsqua y muestra únicamente el IP utilizado por invitados, y el número de visitas asociadas (selección por número de visitas por IP)';
-$lang['HIPE_IPnoGuest'] = '';
-$lang['HIPE_IPnoGuest_description'] = '';
 
 $lang['HIPE_IPForMember'] = 'IP de usuario';
 $lang['HIPE_IPForMember_description'] = 'Búsqueda y muestra IP asociados con un usuario inscrito (selección por IP)';

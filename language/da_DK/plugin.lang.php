@@ -20,8 +20,6 @@
 // | Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA 02111-1307, |
 // | USA.                                                                  |
 // +-----------------------------------------------------------------------+
-$lang['HIPE_IPnoGuest'] = ' ';
-$lang['HIPE_IPnoGuest_description'] = ' ';
 $lang['HIPE_resquet_ok'] = 'Forespørgsel er ok.';
 $lang['HIPE_save_config'] = 'Opsætning er gemt.';
 $lang['HIPE_version'] = ' - Version:';

@@ -31,4 +31,6 @@ $lang['HIPE_IPBlacklist_title'] = 'Exclusion à l\'inscription';
 $lang['HIPE_IPBlacklisted'] = ' Empêcher l\'inscription à la galerie des IP exclues de l\'historique (Blacklistage)';
 $lang['Error_HIPE_BlacklistedIP'] = 'Erreur! Votre IP a été bannie. Vous ne pouvez plus vous inscrire à cette galerie. Contactez l\'administrateur pour de plus amples détails.';
 // --------- End: New or revised $lang ---- from version 2.1.1
+
+$lang['submit'] = 'Valider';
 ?>

@@ -42,4 +42,5 @@ $lang['HIPE_admin_section2'] = 'Forespørgsler i historiktabellen';
 $lang['HIPE_admin_section3'] = 'Resultat af historikforespørgslen';
 $lang['HIPE_description'] = 'Plugin\'en gør det muligt at fravælge IP-adresser og intervaller af IP-adresser fra historik og statistik.<br>Dens aktiveringsblok gemmer i IP-adressetabellen *_history angivet herunder.';
 $lang['HIPE_hist_cleaned'] = 'Tømning af historiktabellen er udført.';
+$lang['submit'] = 'Udfør';
 ?>

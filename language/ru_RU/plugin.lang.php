@@ -42,4 +42,5 @@ $lang['HIPE_resquet_ok'] = 'Запрос OK.';
 $lang['HIPE_save_config'] = 'Настройки сохранены.';
 $lang['HIPE_version'] = ' - Версия: ';
 $lang['IP_geolocalisation'] = 'Географическое расположение';
+$lang['submit'] = 'Подтвердить';
 ?>

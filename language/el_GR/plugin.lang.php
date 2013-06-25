@@ -43,4 +43,5 @@ $lang['HIPE_resquet_ok'] = 'Αίτηση ΟΚ.';
 $lang['HIPE_save_config'] = 'Οι ρυθμίσεις αποθηκεύτηκαν ';
 $lang['HIPE_version'] = '- Έκδοση: ';
 $lang['IP_geolocalisation'] = 'Γεωγραφικός Προσδιορισμός';
+$lang['submit'] = 'Υποβολή';
 ?>

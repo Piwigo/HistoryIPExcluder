@@ -63,6 +63,13 @@ Author URI: http://gallery-nicco.no-ip.org - http://www.infernoweb.net
 2.5.1             - Add pt_BR, thanks to : flaviove
 
 2.5.2             - Add pt_PT, thanks to : ddtddt & ANO
+
+2.5.3             - Add nl_NL, thanks to : Kees Hessels
+                  - Update el_GR, thanks to : bas_alba
+                  - Update da_DK, thanks to : Kaare
+                  - Update ru_RU, thanks to : Konve
+                  - Translation keys fixed
+                  - Delete unused translation keys
 --------------------------------------------------------------------------------
 */
 

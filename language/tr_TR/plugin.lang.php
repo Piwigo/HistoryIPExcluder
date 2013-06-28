@@ -42,4 +42,5 @@ $lang['HIPE_IPBlacklisted'] = 'Çıkarılan IP\'lerin (kara liste) galeriye üye
 $lang['HIPE_IPBlacklist_title'] = 'Kayıt kara listesi';
 $lang['HIPE_CleanHist'] = 'Geçmişi Temizle';
 $lang['Error_HIPE_BlacklistedIP'] = 'Hata! IP numaranız yasaklandı. Bu galeriye üye olamazsınız. Daha fazla detay için yönetici ile bağlantı kurun.';
+$lang['submit'] = 'Gönder';
 ?>

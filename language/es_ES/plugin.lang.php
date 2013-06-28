@@ -28,4 +28,5 @@ $lang['HIPE_version'] = ' - Versión: ';
 $lang['Error_HIPE_BlacklistedIP'] = 'Error: Su IP ha sido prohibido. Usted no puede suscribirse a esta galería. Póngase en contacto con el administrador para obtener más detalles.';
 $lang['HIPE_IPBlacklist_title'] = 'Registro de lista negra';
 $lang['HIPE_IPBlacklisted'] = 'Impedir el registro a la galería de IPs excluidos (lista negra)';
+$lang['submit'] = 'Someter';
 ?>

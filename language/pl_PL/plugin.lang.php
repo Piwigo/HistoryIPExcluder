@@ -42,4 +42,5 @@ $lang['HIPE_resquet_ok'] = 'Żądanie poprawne';
 $lang['HIPE_save_config'] = 'Konfiguracja zapisana';
 $lang['HIPE_version'] = '- Wersja:';
 $lang['IP_geolocalisation'] = 'Geolokalizacja';
+$lang['submit'] = 'Wyślij';
 ?>

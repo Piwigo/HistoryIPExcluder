@@ -42,4 +42,5 @@ $lang['HIPE_IPByMember'] = 'IP podľa používateľa';
 $lang['HIPE_IPBlacklisted'] = 'Zabrániť registrácii používateľov s nasledujúcimi IP adresami (blacklist)';
 $lang['HIPE_IPBlacklist_title'] = 'Registrácia blacklistu';
 $lang['HIPE_CleanHist'] = 'Vyčistiť históriu';
+$lang['submit'] = 'Odoslať';
 ?>

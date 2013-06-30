@@ -42,4 +42,5 @@ $lang['HIPE_resquet_ok'] = 'Pieprasījums OK.';
 $lang['HIPE_save_config'] = 'Konfigurācija saglabāta.';
 $lang['HIPE_version'] = ' - Versija: ';
 $lang['IP_geolocalisation'] = 'Ģeolokalizācija';
+$lang['submit'] = 'Apstiprināt';
 ?>

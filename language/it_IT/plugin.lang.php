@@ -28,4 +28,5 @@ $lang['HIPE_version'] = ' - Versione: ';
 $lang['Error_HIPE_BlacklistedIP'] = 'Errore! Il tuo IP è stato bannato. Non ti puoi registrare a questa galleria. Contatta l\'amministratore per ulteriori informazioni.';
 $lang['HIPE_IPBlacklisted'] = 'Vieta la registrazione alla galleria agli IP (blacklist) esclusi';
 $lang['HIPE_IPBlacklist_title'] = 'Blacklist registrazioni';
+$lang['submit'] = 'invia';
 ?>

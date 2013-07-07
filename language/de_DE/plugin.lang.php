@@ -31,4 +31,5 @@ $lang['HIPE_IPBlacklist_title'] = 'Registrierungs-Blacklist';
 $lang['HIPE_IPBlacklisted'] = 'Verhindert, sich von gesperrten IP Adressen zu registrieren';
 $lang['Error_HIPE_BlacklistedIP'] = 'Fehler! Ihre IP Adresse wurde gesperrt, Sie können sich nicht registrieren. Kontaktieren Sie den Administrator, um weitere Informationen zu erhalten.';
 // --------- End: New or revised $lang ---- from version 2.1.1
+$lang['submit'] = 'übergeben';
 ?>

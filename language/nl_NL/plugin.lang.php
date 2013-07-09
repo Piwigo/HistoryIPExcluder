@@ -42,4 +42,5 @@ $lang['HIPE_save_config'] = 'Configuratie opgeslagen.';
 $lang['HIPE_version'] = '-Versie:';
 $lang['IP_geolocalisation'] = 'Geolocalisatie';
 $lang['HIPE_CleanHist'] = 'Schoon geschiedenis';
+$lang['submit'] = 'Verstuur';
 ?>

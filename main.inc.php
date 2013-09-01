@@ -70,6 +70,17 @@ Author URI: http://gallery-nicco.no-ip.org - http://www.infernoweb.net
                   - Update ru_RU, thanks to : Konve
                   - Translation keys fixed
                   - Delete unused translation keys
+
+2.5.4             - Update es_ES, thanks to : jpr928
+                  - Update tr_TR, thanks to : LazBoy
+                  - Update lv_LV, thanks to : agrisans
+                  - Update pt_PT, thanks to : ANO
+                  - Update sk_SK, thanks to : dodo
+                  - Update pl_PL, thanks to : K.S.
+                  - Update it_IT, thanks to : Sugar888
+                  - Update pt_BR, thanks to : glaucio
+                  - Update de_DE, thanks to : fs101299
+                  - Update nl_NL, thanks to : Kees Hessels
 --------------------------------------------------------------------------------
 */
 

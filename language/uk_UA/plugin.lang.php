@@ -42,4 +42,5 @@ $lang['HIPE_IPByMember'] = 'IP-адреси користувача';
 $lang['HIPE_IPForMember'] = 'IP-адреси для користувача';
 $lang['HIPE_admin_section3'] = 'Результат історичного запиту';
 $lang['HIPE_hist_cleaned'] = 'Очищення таблиці історії зроблено';
+$lang['submit'] = 'Підтвердити';
 ?>

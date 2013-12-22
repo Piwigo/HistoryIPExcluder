@@ -81,6 +81,10 @@ Author URI: http://gallery-nicco.no-ip.org - http://www.infernoweb.net
                   - Update pt_BR, thanks to : glaucio
                   - Update de_DE, thanks to : fs101299
                   - Update nl_NL, thanks to : Kees Hessels
+
+2.6.0             - Compatibility checked with Piwigo 2.6
+                  - Update uk_UA, thanks to : animan
+                  - Update cs_CZ, thanks to : elpresidento
 --------------------------------------------------------------------------------
 */
 

@@ -85,6 +85,8 @@ Author URI: http://gallery-nicco.no-ip.org - http://www.infernoweb.net
 2.6.0             - Compatibility checked with Piwigo 2.6
                   - Update uk_UA, thanks to : animan
                   - Update cs_CZ, thanks to : elpresidento
+
+2.6.1             - Fix obsolete is_adviser()
 --------------------------------------------------------------------------------
 */
 

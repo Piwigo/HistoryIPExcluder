@@ -21,7 +21,7 @@ $ip_ripe3 = '</a>';
 
 
 
-if ( isset($_POST['submit']) and !is_adviser() )
+if ( isset($_POST['submit']))
 {
   $v = $_POST['HIPE_IPs_Excluded'];
   $v = str_replace( "\r\n", ",", $v );

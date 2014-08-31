@@ -4,7 +4,7 @@ if (!defined('HIPE_PATH')) define('HIPE_PATH' , PHPWG_PLUGINS_PATH.basename(dirn
 
 include_once (HIPE_PATH.'include/functions.inc.php');
 
-function plugin_install()
+function plugin_install($id, $version, &$errors)
 {
   global $conf;
   
@@ -55,7 +55,7 @@ VALUES ("HistoryIPConfig","'.pwg_db_real_escape_string(serialize($default)).'","
 }
 
 
-function plugin_activate()
+function plugin_activate($id, $version, &$errors)
 {
   global $conf;
   

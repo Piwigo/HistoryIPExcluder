@@ -87,6 +87,9 @@ Author URI: http://gallery-nicco.no-ip.org - http://www.infernoweb.net
                   - Update cs_CZ, thanks to : elpresidento
 
 2.6.1             - Fix obsolete is_adviser()
+
+2.7.0             - Compatibility with Piwigo 2.7
+                  - Update zh_CN, thanks to : dennisyan
 --------------------------------------------------------------------------------
 */
 

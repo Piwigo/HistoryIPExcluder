@@ -90,6 +90,8 @@ Author URI: http://gallery-nicco.no-ip.org - http://www.infernoweb.net
 
 2.7.0             - Compatibility with Piwigo 2.7
                   - Update zh_CN, thanks to : dennisyan
+
+2.7.1			  - Add nb_NO, thanks to : paulen
 --------------------------------------------------------------------------------
 */
 

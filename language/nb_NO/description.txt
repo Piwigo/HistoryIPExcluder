@@ -1,1 +1,1 @@
-Utelukker en IP eller et område med IP fra historikken og hidrer dem i å registrere seg
+Utelukker en IP-adresse eller et område med IP-adresser fra historikken og hidrer dem i å registrere seg

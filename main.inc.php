@@ -92,6 +92,9 @@ Author URI: http://gallery-nicco.no-ip.org - http://www.infernoweb.net
                   - Update zh_CN, thanks to : dennisyan
 
 2.7.1			  - Add nb_NO, thanks to : paulen
+
+2.7.2			  - Update nb_NO, thanks to paulen
+				  - Update de_DE, thanks to bigant
 --------------------------------------------------------------------------------
 */
 

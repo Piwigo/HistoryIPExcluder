@@ -6,6 +6,7 @@ Description: Permet l'exclusion d'une IP ou d'une plage d'IP de l'historique et 
 Plugin URI: http://piwigo.org/ext/extension_view.php?eid=147
 Author: Nicco, Eric
 Author URI: http://gallery-nicco.no-ip.org - http://www.infernoweb.net
+Has Settings: webmaster
 */
 
 /*
@@ -104,28 +105,15 @@ if (!defined('HIPE_PATH')) define('HIPE_PATH' , PHPWG_PLUGINS_PATH.basename(dirn
 
 include_once (HIPE_PATH.'/include/functions.inc.php');
 
-load_language('plugin.lang', HIPE_PATH);
 
-add_event_handler('get_admin_plugin_menu_links', 'HIPE_admin_menu');
-
-/* Set the administration panel of the plugin */
-function HIPE_admin_menu($menu)
-{
-// +-----------------------------------------------------------------------+
-// |                      Getting plugin name                              |
-// +-----------------------------------------------------------------------+
-  $plugin =  HIPE_infos(HIPE_PATH);
-  $name = $plugin['name'];
-  
-  array_push($menu,
-    array(
-      'NAME' => $name,
-      'URL' => get_root_url().'admin.php?page=plugin-'.basename(HIPE_PATH)
-    )
-  );
-    
-  return $menu;
+add_event_handler('loading_lang', 'HIPE_loading_lang');	  
+function HIPE_loading_lang(){
+  load_language('plugin.lang', HIPE_PATH);
 }
+
+
+
+
 
 // IP exclusion from logs
 add_event_handler('pwg_log_allowed', 'HIPE_IP_Filtrer');

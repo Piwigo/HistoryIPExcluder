@@ -1,0 +1,1 @@
+Izključi en IP ali vrsto IP-jev iz zgodovine in jih uvrsti na črni seznam ob registraciji

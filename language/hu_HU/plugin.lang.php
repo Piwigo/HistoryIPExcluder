@@ -30,4 +30,4 @@ $lang['HIPE_IPBlacklist_title'] = 'Regisztrációs feketelista';
 $lang['HIPE_IPBlacklisted'] = ' Regisztráció tiltása az alábbi IP címekről (feketelista)';
 $lang['Error_HIPE_BlacklistedIP'] = 'Hiba! Az IP címe le van tiltva, nem regisztrálhat a galériába. További részletekért forduljon a galéria adminisztrátorához.';
 // --------- End: New or revised $lang ---- from version 2.1.1
-?>
+$lang['submit'] = 'Küldés';

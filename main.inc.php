@@ -5,8 +5,8 @@ Version: auto
 Description: Permet l'exclusion d'une IP ou d'une plage d'IP de l'historique et de les blacklister à l'inscription / Excludes one IP or a range of IP from the history and to blacklist them on registration
 Plugin URI: http://piwigo.org/ext/extension_view.php?eid=147
 Author: Nicco, Eric
-Author URI: http://gallery-nicco.no-ip.org - http://www.infernoweb.net
-Has Settings: webmaster
+Author URI: https://piwigo.org
+Has Settings: true
 */
 
 /*

@@ -1,0 +1,1 @@
+Útilokar eina IP tölu eða fjölda IP talna frá sögunni og til að svartlista þær við skráningu

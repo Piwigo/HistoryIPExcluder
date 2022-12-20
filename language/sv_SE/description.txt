@@ -1,0 +1,1 @@
+Utesluter ett IP eller ett antal IPs från historiken och att blocklista dem vid registrering
